@@ -15,7 +15,7 @@ one by one for each number from 1.
 
 # References
 
-[Project Euler](https://projecteuler.net/)
-[Rust](https://www.rust-lang.org/)
-[Vim](https://www.vim.org/)
+- [Project Euler](https://projecteuler.net/)
+- [Rust](https://www.rust-lang.org/)
+- [Vim](https://www.vim.org/)
 
