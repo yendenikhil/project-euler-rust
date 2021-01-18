@@ -1,10 +1,13 @@
-mod p17;
-mod p27;
-mod p31;
+use std::env;
 
-#[allow(dead_code)]
+mod problems;
+
 fn main() {
-    // p17::run();
-    // p27::run();
-    p31::run();
+    let args: Vec<String> = env::args().collect();
+    if args.len() > 1 {
+        let num: u16 = args[1].parse().unwrap();
+        problems::run(num)
+    } else {
+        problems::run(27);
+    }
 }
