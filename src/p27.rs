@@ -4,7 +4,7 @@ use std::collections::HashMap;
 fn is_prime(num: i32, memo: &mut HashMap<i32, bool>) -> bool {
     let mut prime = true;
     if memo.contains_key(&num) {
-        prime = *memo.get(&num).expect("SOmething went wrong!");
+        prime = *memo.get(&num).expect("Something went wrong!");
     } else {
         if num < 3 {
             prime = false;

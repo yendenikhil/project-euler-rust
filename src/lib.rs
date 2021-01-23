@@ -10,4 +10,3 @@ pub fn run(num: u16) {
         rest => println!("problem {} is not solved yet", rest),
     }
 }
-
