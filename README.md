@@ -26,7 +26,7 @@ I have seen some places where people have created the sieves of prime numbers
 and then just looked at it.
 
 
-## Problem 31 [e](https://projecteuler.net/problem=31)
+## Problem 31 [#](https://projecteuler.net/problem=31)
 
 This was interesting one. We have to find out number of different ways we can 
 create 2 pounds from the coins [1, 2, 5, 10, 20, 50, 100, 200]pence. 
@@ -42,13 +42,20 @@ number of ways we can calculate 1..200 using 1p then 1 and 2p and further.
 Once we have all the calculations generated, we just take the value used 
 to generate 200 (2 pounds).
 
-## Problem 32 [e](https://projecteuler.net/problem=32)
+## Problem 32 [#](https://projecteuler.net/problem=32)
 
 Here we need to get all the products which satisfy pandigital requirements
 for multiplicant, multiplier, product. using simple way to iterate two 
 numbers 1..99 and other one 123..9876. Whichever satisfies the criterion
 we take the product and add them all. We have to make sure that the products
 are unique and there is more than one way to get product number. 
+
+## Problem 33 [#](https://projecteuler.net/problem=33)
+
+We need to use the bad cancellation to come up with correct answer. The range is 
+only two digit numbers so brute forcing it works. The final answer is the 
+denominator of the product of fractions brought to its lowest denominator. 
+
 
 
 # References
