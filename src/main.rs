@@ -19,7 +19,7 @@ impl Args {
             None => def_str,
         };
         let num: u16 = param.parse::<u16>().unwrap();
-        Args{num}
+        Args { num }
     }
 
     fn run(&self) {
