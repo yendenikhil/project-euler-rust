@@ -2,7 +2,7 @@ use std::collections::HashMap;
 
 fn factorial(num: u32, memo: &mut HashMap<u32, u32>) -> u32 {
     if memo.contains_key(&num) {
-        return *memo.get(&num).unwrap()
+        return *memo.get(&num).unwrap();
     }
     if num > 0 {
         let mut ans: u32 = 1;
@@ -22,7 +22,10 @@ fn is_match(num: usize, memo: &mut HashMap<u32, u32>) -> bool {
         .chars()
         .map(|e| e.to_digit(10).unwrap())
         .collect();
-    let sum = digits.iter().map(|e| factorial(*e, memo)).fold(0, |a, b| a + b);
+    let sum = digits
+        .iter()
+        .map(|e| factorial(*e, memo))
+        .fold(0, |a, b| a + b);
     // println!("{} {}", num, sum);
     num == sum as usize
 }

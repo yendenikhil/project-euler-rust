@@ -57,6 +57,9 @@ only two digit numbers so brute forcing it works. The final answer is the
 denominator of the product of fractions brought to its lowest denominator. 
 
 
+## Problem 34 [#](https://projecteuler.net/problem=34)
+
+## Problem 35 [#](https://projecteuler.net/problem=35)
 
 # References
 
