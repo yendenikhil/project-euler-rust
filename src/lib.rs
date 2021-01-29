@@ -8,6 +8,7 @@ pub mod p35;
 pub mod p36;
 pub mod p37;
 pub mod p38;
+pub mod p39;
 
 pub fn run(num: u16) {
     match num {
@@ -21,6 +22,7 @@ pub fn run(num: u16) {
         36 => p36::run(),
         37 => p37::run(),
         38 => p38::run(),
+        39 => p39::run(),
         rest => println!("problem {} is not solved yet", rest),
     }
 }
