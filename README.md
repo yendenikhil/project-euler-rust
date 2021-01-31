@@ -57,9 +57,18 @@ only two digit numbers so brute forcing it works. The final answer is the
 denominator of the product of fractions brought to its lowest denominator. 
 
 
-## Problem 34 [#](https://projecteuler.net/problem=34)
+## Problem 41 [#](https://projecteuler.net/problem=41)
 
-## Problem 35 [#](https://projecteuler.net/problem=35)
+We need to find all pandigital numbers which are also prime. This sounds 
+that we need to check all numbers from 12 to 987,654,321. This is too big 
+of dataset. What we can do instead is test which series will have primes 
+in it. 
+
+- 2, 3, 5, 8 and 9 digit pandigital numbers have the sum of their digits 
+which are divisible by 3 and hence they will be divisible by three. so 
+no pandigital number there. 
+- only 4 and 7 digit numbers are prime pandigital. 
+
 
 # References
 
