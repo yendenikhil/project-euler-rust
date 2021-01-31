@@ -70,6 +70,18 @@ no pandigital number there.
 - only 4 and 7 digit numbers are prime pandigital. 
 
 
+## Problem 41 [#](https://projecteuler.net/problem=41)
+
+lets build number to match the requirements
+2,3,4 digits from the permutations of all the numbers from 0 to 9
+and they should be divisible by 2.
+3,4,5 digits from the perm of all numbers from 0 to 9
+and they should be divisible by 3 and so on
+now each entry will have max 720 permutations. so total size of sample
+is max 72 ** 9 which is huge number but we will hardly 720 for each position.
+for first one (dig 2 3 and 4 div by 2), we will have 360 
+for third one (dig 4, 5 and 6 div by 5) we will have 144 and so on.
+
 # References
 
 - [Project Euler](https://projecteuler.net/)
